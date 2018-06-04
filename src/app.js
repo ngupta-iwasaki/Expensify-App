@@ -12,10 +12,6 @@ import "react-dates/lib/css/_datepicker.css";
 
 const store = configureStore();
 
-store.dispatch(addExpense({description: "water bill", amount:4500, createdAt:20}));
-store.dispatch(addExpense({description: "fire bill", amount: 500, createdAt:10}));
-store.dispatch(addExpense({description: "Rent", amount: 10, createdAt:100}));
-
 const jsx = (
     <Provider store={store}>
         <AppRouter />
