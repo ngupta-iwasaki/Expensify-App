@@ -9,6 +9,7 @@ import AddExpensePage from './components/AddExpensePage';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import "react-dates/lib/css/_datepicker.css";
+import "./firebase/firebase";
 
 const store = configureStore();
 
